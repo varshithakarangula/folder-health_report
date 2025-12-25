@@ -5,7 +5,8 @@ Automatically analyze a folder and generate a storage summary.
 ```bash
 python folder_health_report.py
 
-###What it does:
+What it does:
+
 Scans a given directory recursively
 
 Counts total files and folders
@@ -16,12 +17,6 @@ Displays file-type distribution
 
 Helps understand disk usage automatically
 
-###Example:
-bash
-Copy code
+Example:
 # Analyze a folder (configured in script)
 python folder_health_report.py
-Use Case:
-Useful when a folder becomes large and unorganized and you need a quick,
-automated overview of file count, folder count, and storage usage without
-manual inspection.
